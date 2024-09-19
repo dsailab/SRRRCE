@@ -48,9 +48,7 @@ while(abs(obj_diff)>0.001 && itera<max_iter && iterb < max_best)
     
 end
 mle_in_AB=[mle_in_AB,value_now];
-% if mle_in_AB(2,end)>mle_in_AB(2,end-1)
-%     mle_in_AB(2,end) = mle_in_AB(2,end-1);
-% end
+
 
 fprintf('loop in AB: %6.0f\n',itera);
 end
@@ -127,7 +125,4 @@ end
 end
 
 
-% function value = value_srrr(Y,X,A,B)
-%     value = norm(Y-X*B*A','fro');
-% end
 
