@@ -8,6 +8,7 @@ We first implemented the algorithm proposed in [1]. In [2], we noted certain iss
 - `SRRRCE_solver.m`: Implements the method in [2].
 - `dpglasso.m`: Implements the algorithm in [3].
 
+# References
 [1] L. Chen and J. Z. Huang, "Sparse Reduced-Rank Regression With Covariance Estimation," Statistical Computing, vol. 26, pp. 461-470, 2016.
 
 [2] F. Li and Z. Zhao, "Efficient Sparse Reduced-Rank Regression With Covariance Estimation," in 2023 IEEE Statistical Signal Processing Workshop (SSP), Hanoi, Vietnam, 2023, pp. 46-50.
