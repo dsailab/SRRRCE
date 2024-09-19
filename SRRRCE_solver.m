@@ -1,4 +1,4 @@
-function solver = effi_SRRCE
+function solver = SRRRCE_solver
 solver.solve_mu = @solve_mu;
 solver.solve_A = @solve_A;
 solver.solve_B = @solve_B;
